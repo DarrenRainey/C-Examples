@@ -1,3 +1,5 @@
+// C example by Darren Rainey http://github.com/DarrenRainey
+
 #include <stdio.h> // Include standard header file
 
 int main(int argc, char* argv[]) // Allow arguments to be passed into program
