@@ -13,5 +13,7 @@ echo Building Scanf example
 gcc scanf.c -o build/scanf
 echo Building System example
 gcc system.c -o build/system
+echo Building Counter Example
+gcc counter.c -o build/counter
 echo ""
 echo Build Complete all builds saved to $PWD/build
