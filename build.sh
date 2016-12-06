@@ -15,5 +15,7 @@ echo Building System example
 gcc system.c -o build/system
 echo Building Counter Example
 gcc counter.c -o build/counter
+echo Building While Loop Example
+gcc while-loops.c -o build/while-loops
 echo ""
 echo Build Complete all builds saved to $PWD/build
