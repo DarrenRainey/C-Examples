@@ -4,7 +4,7 @@
 
 void example() //  Start void  function
 {
-  printf("I am in the void\m");
+  printf("I am in the void\n ");
 
 }
 // End of void function
