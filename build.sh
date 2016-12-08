@@ -19,5 +19,7 @@ echo Building While Loop Example
 gcc while-loops.c -o build/while-loops
 echo Building Voids example
 gcc voids.c -o build/voids
+echo Building Comments Example
+gcc commnets.c -o build/commnets
 echo ""
 echo Build Complete all builds saved to $PWD/build
