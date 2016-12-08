@@ -8,7 +8,7 @@ int main() // Start main function
   
   /* This is a multiline comment
     useful for lots of text
-  */ and this closes the comment
+  */
 
 
   return 0;
