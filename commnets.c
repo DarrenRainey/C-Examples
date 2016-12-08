@@ -6,9 +6,9 @@ int main() // Start main function
 {
   // This is a single line comment and wont show up in the program
   
-  */ This is a multiline comment
+  /* This is a multiline comment
     useful for lots of text
-  /* and this closes the comment
+  */ and this closes the comment
 
 
   return 0;
