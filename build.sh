@@ -26,6 +26,8 @@ gcc strcpy.c -o build/strcpy
 echo  Building Calculator Example
 gcc calculator.c -o build/calculator
 echo Building Subtraction Math Example
-gcc subtraction-math.c -o subtraction-math
+gcc subtraction-math.c -o build/subtraction-math
+echo Building Audio Alert Example
+gcc  audio-alert.c  -o build/audio-alert
 echo ""
 echo Build Complete all builds saved to $PWD/build
