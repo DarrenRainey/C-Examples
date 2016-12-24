@@ -29,5 +29,7 @@ echo Building Subtraction Math Example
 gcc subtraction-math.c -o build/subtraction-math
 echo Building Audio Alert Example
 gcc  audio-alert.c  -o build/audio-alert
+echo Building Printf Multiple Char Example
+gcc  printf-multiple-chars.c  -o build/printf-multiple-chars
 echo ""
 echo Build Complete all builds saved to $PWD/build
