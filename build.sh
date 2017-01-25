@@ -31,5 +31,7 @@ echo Building Audio Alert Example
 gcc  audio-alert.c  -o build/audio-alert
 echo Building Printf Multiple Char Example
 gcc  printf-multiple-chars.c  -o build/printf-multiple-chars
+echo Building Socket Client Example
+gcc socket-client.c -o build/sockect-client
 echo ""
 echo Build Complete all builds saved to $PWD/build
