@@ -35,5 +35,7 @@ echo Building Socket Client Example
 gcc socket-client.c -o build/sockect-client
 echo Building Storage Limits Example
 gcc storage-limits.c -o build/storage-limits
+echo Building Void Arguments Example
+gcc passing-arguments-to-void.c -o build/passing-arguments-to-void
 echo ""
 echo Build Complete all builds saved to $PWD/build
