@@ -3,7 +3,7 @@
 
 void examplevoid(int arg) // Create a void called examplevoid and allow arguments to be passed to it
 {
-  printf("Argument From The Main Function Was %d",arg);
+  printf("Argument From The Main Function Was %d\n",arg);
 }
 
 int main()  // Start main Function
