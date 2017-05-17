@@ -37,5 +37,7 @@ echo Building Storage Limits Example
 gcc storage-limits.c -o build/storage-limits
 echo Building Void Arguments Example
 gcc passing-arguments-to-void.c -o build/passing-arguments-to-void
+echo Building If Else Example
+gcc if-else.c -o build/if-else
 echo ""
 echo Build Complete all builds saved to $PWD/build
