@@ -39,5 +39,7 @@ echo Building Void Arguments Example
 gcc passing-arguments-to-void.c -o build/passing-arguments-to-void
 echo Building If Else Example
 gcc if-else.c -o build/if-else
+echo Building If String Example
+gcc if-string.c -o build/if-string
 echo ""
 echo Build Complete all builds saved to $PWD/build
