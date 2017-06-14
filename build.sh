@@ -41,5 +41,7 @@ echo Building If Else Example
 gcc if-else.c -o build/if-else
 echo Building If String Example
 gcc if-string.c -o build/if-string
+echo Building Compare Strings Example
+gcc compare-strings.c -o build/compare-strings
 echo ""
 echo Build Complete all builds saved to $PWD/build
