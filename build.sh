@@ -43,5 +43,7 @@ echo Building If String Example
 gcc if-string.c -o build/if-string
 echo Building Compare Strings Example
 gcc compare-strings.c -o build/compare-strings
+echo Building Get Username Example
+gcc getuser_name.c -o build/getuser_name
 echo ""
 echo Build Complete all builds saved to $PWD/build
