@@ -1,3 +1,7 @@
+/* 
+Created By Darren Rainey https://github.com/DarrenRainey
+Arguments --help and --log
+*/
 #include <stdio.h>
 #include <string.h>
 
