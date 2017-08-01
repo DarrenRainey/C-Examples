@@ -48,5 +48,7 @@ gcc getuser_name.c -o build/getuser_name
 gcc C-File-Storage-Information.c -o build/C-File-Storage-Information
 echo Building Check-If File Exists Example
 gcc Check-If-File-Exists.c -o build/Check-If-File-Exists
+echo Building Fizzbuzz Example
+gcc Fizzbuzz.c -o build/Fizzbuzz
 echo ""
 echo Build Complete all builds saved to $PWD/build
