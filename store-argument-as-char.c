@@ -21,6 +21,9 @@ int main(int argc, char *argv[])
 		printf("%s --input \"hello world\"\n",argv[0]); // Print program name and help information
 		}
 	}
-
+	else // If no arguments supplied
+	{
+	printf("%s --input \"hello world\"\n",argv[0]); // Print program name and help information	
+	}
 	return 0; // Exit if no errors
 }
