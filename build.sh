@@ -50,5 +50,7 @@ echo Building Check-If File Exists Example
 gcc Check-If-File-Exists.c -o build/Check-If-File-Exists
 echo Building Fizzbuzz Example
 gcc Fizzbuzz.c -o build/Fizzbuzz
+echo Building Argument Storage Example
+gcc store-argument-as-char.c -o build/store-argument-as-char
 echo ""
 echo Build Complete all builds saved to $PWD/build
