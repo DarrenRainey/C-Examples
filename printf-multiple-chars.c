@@ -4,10 +4,10 @@
 
 int main()
 {
-  char 1[] =  "This Is the First Char"; // Set Char One
-  char 2[] =  "And This  Is The Second  Char"; // Set Char Two
+  char one[] =  "This Is the First Char"; // Set Char One
+  char two[] =  "And This  Is The Second  Char"; // Set Char Two
 
-  printf("%s %s",1,2);  //  Print  the information stored in the two char's
+  printf("%s %s\n",one,two);  //  Print  the information stored in the two char's
 
   return 0; // Exit if successful
 }
