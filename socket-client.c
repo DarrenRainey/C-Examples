@@ -35,7 +35,7 @@ int main(int argc, char *argv[]) // Start main function
 	
 	if(inet_pton(AF_INET, argv[1], &serv_addr.sin_addr)<=0) // If command line argument if invailed
 	{
-	printf("\n inet_pton error occured\n"); Display error if connection timed output
+	printf("\n inet_pton error occured\n"); // Display error if connection timed output
 	return 1; // Return error code 1 if failed
 	} 
 	if( connect(sockfd, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0) // If there is no command line arguments display the following error
