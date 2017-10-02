@@ -6,7 +6,7 @@ int main() // Start Main Function
 {
   char input[256]; // Create a char variable called input with a size of 256
   printf("Input : "); // Ask for input
-  scanf("%s",&input) // Store input in input variable
+  scanf("%s",&input); // Store input in input variable
   
   if(strcmp(input, "Hello" ) == 0 ) // If input variable equals Hello then do this
   {
