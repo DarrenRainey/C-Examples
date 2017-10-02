@@ -4,8 +4,8 @@
 int main() // Start main function
 {
   int age; // Create age integar
-  printf("How old are you ?: ); // Ask for users age
-  scanf("%d".&age); // Save the anwser to the age integar
+  printf("How old are you ?: "); // Ask for users age
+  scanf("%d",&age); // Save the anwser to the age integar
   
   if(age > 18) // If age is greater than 18 do this
   {
