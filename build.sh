@@ -58,5 +58,7 @@ echo Building Reverse String Example
 gcc Reverse-String.c -o build/Reverse-String
 echo Building Fgets Example
 gcc Fgets.c -o build/Fgets
+echo Building Print Username Example
+gcc Print-Username.c -o build/Print-Username
 echo ""
 echo Build Complete all builds saved to $PWD/build
