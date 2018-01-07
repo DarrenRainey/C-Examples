@@ -60,5 +60,7 @@ echo Building Fgets Example
 gcc Fgets.c -o build/Fgets
 echo Building Print Username Example
 gcc Print-Username.c -o build/Print-Username
+echo Building Lowercase To Uppercase Example
+gcc Lower-ToUppercase-Text.c -o build/Lower-ToUppercase-Text
 echo ""
 echo Build Complete all builds saved to $PWD/build
