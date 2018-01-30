@@ -62,5 +62,7 @@ echo Building Print Username Example
 gcc Print-Username.c -o build/Print-Username
 echo Building Lowercase To Uppercase Example
 gcc Lower-ToUppercase-Text.c -o build/Lower-ToUppercase-Text
+echo Building Print First Recurring Character Example
+gcc Print-First-Recurring-Character.c -o build/Print-First-Recurring-Character
 echo ""
 echo Build Complete all builds saved to $PWD/build
