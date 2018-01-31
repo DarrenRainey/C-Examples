@@ -55,7 +55,7 @@ gcc store-argument-as-char.c -o build/store-argument-as-char
 echo Building Alternative File Existance Checker
 gcc Check-If-File-Exists-Alternative.c -o build/Check-If-File-Exists-Alternative
 echo Building Reverse String Example
-gcc Reverse-String.c -o build/Reverse-String
+gcc -std=c99 Reverse-String.c -o build/Reverse-String
 echo Building Fgets Example
 gcc Fgets.c -o build/Fgets
 echo Building Print Username Example
