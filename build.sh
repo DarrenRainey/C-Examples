@@ -64,5 +64,7 @@ echo Building Lowercase To Uppercase Example
 gcc Lower-ToUppercase-Text.c -o build/Lower-ToUppercase-Text
 echo Building Print First Recurring Character Example
 gcc Print-First-Recurring-Character.c -o build/Print-First-Recurring-Character
+echo Building While Do Loop
+gcc While-Do-Loop.c -o build/While-Do-Loop
 echo ""
 echo Build Complete all builds saved to $PWD/build
