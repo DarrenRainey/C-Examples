@@ -1,5 +1,5 @@
 CC=gcc
-make: advance-functions.c audio-alert.c basic-math.c build build.sh calculator.c C-File-Storage-Information.c Check-If-File-Exists-Alternative.c Check-If-File-Exists.c Clear-Console-Window.c commnets.c compare-strings.c counter.c cross-platform.c Fgets.c Fizzbuzz.c getuser_name.c if-else.c if-string.c Lower-ToUppercase-Text.c Makefile passing-arguments-to-void.c printf.c Print-First-Recurring-Character.c printf-multiple-chars.c Print-Username.c README.md Reverse-String.c scanf.c socket-client.c storage-limits.c store-argument-as-char.c strcpy.c subtraction-math.c system.c voids.c While-Do-Loop.c while-loops.c
+make: advance-functions.c audio-alert.c basic-math.c calculator.c C-File-Storage-Information.c Check-If-File-Exists-Alternative.c Check-If-File-Exists.c Clear-Console-Window.c commnets.c compare-strings.c counter.c cross-platform.c Fgets.c Fizzbuzz.c getuser_name.c if-else.c if-string.c Lower-ToUppercase-Text.c Makefile passing-arguments-to-void.c printf.c Print-First-Recurring-Character.c printf-multiple-chars.c Print-Username.c README.md Reverse-String.c scanf.c socket-client.c storage-limits.c store-argument-as-char.c strcpy.c subtraction-math.c system.c voids.c While-Do-Loop.c while-loops.c
 	$(CC) advance-functions.c  -o build/advance-functions
 	$(CC) audio-alert.c -o build/audio-alert
 	$(CC) basic-math.c -o build/basic-math
