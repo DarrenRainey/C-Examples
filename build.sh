@@ -66,5 +66,7 @@ echo Building Print First Recurring Character Example
 gcc Print-First-Recurring-Character.c -o build/Print-First-Recurring-Character
 echo Building While Do Loop
 gcc While-Do-Loop.c -o build/While-Do-Loop
+echo Building Clear Console Example
+gcc Clear-Console-Window.c -o build/Clear-Console-Window
 echo ""
 echo Build Complete all builds saved to $PWD/build
