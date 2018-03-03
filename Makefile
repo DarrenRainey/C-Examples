@@ -35,3 +35,4 @@ make: advance-functions.c audio-alert.c basic-math.c calculator.c C-File-Storage
 	$(CC) voids.c -o build/voids
 	$(CC) While-Do-Loop.c -o build/While-Do-Loop
 	$(CC) while-loops.c -o build/while-loops
+	$(CC) Check-If-File-Exists-Alternative-2.c -o build/Check-If-File-Exists-Alternative-2 -Wimplicit-function-declaration
