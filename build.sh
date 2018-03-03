@@ -68,5 +68,7 @@ echo Building While Do Loop
 gcc While-Do-Loop.c -o build/While-Do-Loop
 echo Building Clear Console Example
 gcc Clear-Console-Window.c -o build/Clear-Console-Window
+echo Building Check File Alternative 2
+gcc Check-If-File-Exists-Alternative-2.c -o build/Check-If-File-Exists-Alternative-2 -Wimplicit-function-declaration
 echo ""
 echo Build Complete all builds saved to $PWD/build
