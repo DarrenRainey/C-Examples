@@ -1,19 +1,22 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>	//	Include Standard C header file
+#include <stdlib.h>	//	Include Stanard Libary file for some extra functions
 
 int main()
 {
-    int i,j,k,n,a[100],b[100],c[100];
+    int i,j,k,n,a[100],b[100],c[100];	// Create some arrays for later use
     scanf("%d",&n);
+	
     for(i=0;i<n;i++){
-        scanf("%d",&a[i]);
+	printf("[i] Please Enter A Number :");	// Ask for a number
+	scanf("%d",&a[i]);			// Add current number to the array
     }
+	
     int min=a[0];
     for(i=0;i<n;i++){
         if(min>a[i])
             min=a[i];
-
     }
+	
     for(i=0;i<n;i++)
         a[i]=a[i]-min+1;
 
@@ -38,12 +41,11 @@ int main()
 
     printf ("Sorted Array is: \n");
 
-		for (int i=1; i<=n; i++)
-	    {
-		    b[i] = b[i]+min-1;
-			printf ("%d ", b[i]);
-
+		for (int i=1; i<=n; i++)	
+		{
+		    b[i] = b[i]+min-1;		//	Sort the array in order
+			printf ("%d ", b[i]);	//	print in order
 		}
-
-
+	
+	return 0; // Exit with no error code - exit with code zero
 }
