@@ -72,5 +72,7 @@ echo Building Check File Alternative 2
 gcc Check-If-File-Exists-Alternative-2.c -o build/Check-If-File-Exists-Alternative-2 -Wimplicit-function-declaration
 echo Building Get-File-Size Example
 gcc Get-File-Size.c -o build/Get-File-Size
+echo Build Fbonacci Generator Example
+gcc Fbonacci-Generator.c -o build/Fbonacci-Generator
 echo ""
 echo Build Complete all builds saved to $PWD/build
