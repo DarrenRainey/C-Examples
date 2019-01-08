@@ -37,3 +37,4 @@ make: advance-functions.c audio-alert.c basic-math.c calculator.c C-File-Storage
 	$(CC) while-loops.c -o build/while-loops
 	$(CC) Check-If-File-Exists-Alternative-2.c -o build/Check-If-File-Exists-Alternative-2 -Wimplicit-function-declaration
 	$(CC) Get-File-Size.c -o build/Get-File-Size
+	$(CC) Fbonacci-Generator.c -o build/Fbonacci-Generator
