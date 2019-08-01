@@ -9,7 +9,7 @@ int main() // Start main function
   }
   else // If it doesn't exist
   {
-    printf("IT DOES NOT EXIST\n") // print it does not exist
+    printf("IT DOES NOT EXIST\n"); // print it does not exist
   }
   
   return 0; // Exist succesfully
