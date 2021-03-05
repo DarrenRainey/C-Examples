@@ -1,5 +1,6 @@
 // C-example by Darren Rainey 2018 https://github.com/DarrenRainey/C-Examples
 #include <stdio.h> // Include standard C header file
+#include <sys/stat.h>
 
 int main() // Start main function
 {
