@@ -38,3 +38,4 @@ make: advance-functions.c audio-alert.c basic-math.c calculator.c C-File-Storage
 	$(CC) Check-If-File-Exists-Alternative-2.c -o build/Check-If-File-Exists-Alternative-2 -Wimplicit-function-declaration
 	$(CC) Get-File-Size.c -o build/Get-File-Size
 	$(CC) Fibonacci-Generator.c -o build/Fibonacci-Generator
+	$(CC) kill-Process.c -o build/Kill-Process
