@@ -1,6 +1,7 @@
 // C Example By DarrenRainey https://github.com/DarrenRainey
 #include <stdio.h> // Include Standard C Header Libary
 #include <unistd.h> // Standard Unix Header Libary For Various Function Such As "access" Function
+#include <sys/stat.h>
 
 // Start Main Function
 int main()
