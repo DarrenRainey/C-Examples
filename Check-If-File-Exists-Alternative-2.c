@@ -4,7 +4,8 @@
 
 int main() // Start main function
 {
-  if(stat("file.txt") == 0) // If file.txt exists run the following code
+  struct stat status;
+  if(stat("file.txt",&status) == 0) // If file.txt exists run the following code
   {
     printf("IT EXISTS\n"); // print it exists
   }
